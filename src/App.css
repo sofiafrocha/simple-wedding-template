@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+  /* SETTINGS */
+  --background-color: #f4f1de;
+  --text-color: #3d405b;
+  --font-family: "Merriweather";
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family), serif;
+}
+
+a {
+  text-decoration: underline;
+}
